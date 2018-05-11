@@ -1,0 +1,87 @@
+$bg-color:#E6E4EA;
+$font-color:#AAB4C0;
+$primary-color:#F84822;
+$dark-overlay:rgba(0,0,0,0.5);
+$icon-size:30px;
+$seconary-color:#44749d;
+$time-boxes-color:#585c62;
+$active-color:#F84822;
+.container-margin{
+  margin-top: 80px;
+}
+.grid-container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 150px 350px 150px;/*Make the grid smaller than the container*/
+  grid-gap: 10px;
+  background-color:#585c62;
+  padding: 10px;
+}
+.grid-container > div {
+  
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+ /* Style the buttons that are used to open and close the accordion panel */
+ .accordion {
+  background-color: #eee;
+  color: $time-boxes-color;
+  cursor: pointer;
+  padding: 5px 5px 5px 5px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.p-color{
+  color:$primary-color;
+  text-align:center;
+}
+.rads img{
+  border-radius: 5px;
+}
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color:gray;
+  text-align: center;
+  width: 500px;
+  margin-left: 100px;
+}
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #F84822;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+

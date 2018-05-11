@@ -1,0 +1,234 @@
+/*--BODY--*/
+.body {
+  background-color: #F8F7F2; }
+
+/* Top Nav */
+.title-bar {
+  width: 100%;
+  z-index: 10;
+  transition: height .25s ease;
+  height: 7.5em;
+  margin-top: 5px;
+  border: 5px;
+  border-bottom-color: red;
+  background-color: #F8F7F2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
+
+.img {
+  margin-left: 70px;
+  margin-top: -50px; }
+
+.title-bar .title-bar-right,
+.title-bar .title-bar-left {
+  transition: padding-top .25s ease;
+  padding-top: .1em; }
+
+.title-bar.shrink {
+  height: 7em; }
+
+.title-bar.shrink .title-bar-right,
+.title-bar.shrink .title-bar-left {
+  padding-top: 0em; }
+
+.menu a {
+  color: #1E2013;
+  text-transform: lowercase;
+  margin-top: 10px; }
+
+#root {
+  margin-top: 2em; }
+
+/* Top Bar */
+.top-bar {
+  width: 100%;
+  background: #F8F7F2;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
+
+.vertical.medium-horizontal.menu {
+  background-color: #F8F7F2;
+  font-weight: 300; }
+  .vertical.medium-horizontal.menu ul {
+    align-content: center; }
+  .vertical.medium-horizontal.menu li {
+    text-transform: capitalize; }
+  .vertical.medium-horizontal.menu a {
+    color: #FA6900;
+    float: left; }
+  .vertical.medium-horizontal.menu a:hover {
+    color: #3adb76; }
+  .vertical.medium-horizontal.menu a.current {
+    color: #3adb76;
+    border-bottom: 3px solid #69d2e7; }
+
+.color {
+  color: #69d2e7; }
+
+h3 {
+  color: #FA6900; }
+
+.section {
+  margin-top: 50px;
+  margin-right: 20px; }
+
+.flex-wrapper {
+  display: flex;
+  height: 100vh; }
+
+.flex-wrapper a {
+  position: relative;
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: flex .4s; }
+
+.logo {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px; }
+
+.flex-wrapper .one {
+  background-image: url("../img/sails-restaurant-2_med.jpg");
+  background-color: red; }
+
+.flex-wrapper .two {
+  background-image: url("../img/viewBar153.jpg");
+  background-color: green; }
+
+.flex-wrapper .three {
+  background-image: url("../img/fish_chips.jpg");
+  background-color: steelblue; }
+
+.flex-wrapper .four {
+  background-image: url("../img/coffee.jpg");
+  background-color: orange; }
+
+.flex-wrapper .five {
+  background-image: url("../img/weddings_pic2.jpg");
+  background-color: tomato; }
+
+.flex-wrapper a:hover {
+  flex: 3; }
+
+.flex-wrapper .overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: background-color .4s; }
+
+.flex-wrapper a:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.flex-wrapper .overlay-inner * {
+  visibility: hidden;
+  opacity: 0;
+  transform-style: preserve-3d; }
+
+.flex-wrapper .overlay h2 {
+  transform: translate3d(0, -60px, 0); }
+
+.flex-wrapper .overlay p {
+  transform: translate3d(0, 60px, 0); }
+
+.flex-wrapper a:hover .overlay-inner * {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: all .3s .3s; }
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 1rem;
+    line-height: 1.25; } }
+
+@media screen and (max-width: 800px) and (max-width: 600px) {
+  body {
+    font-size: .6rem;
+    line-height: 1.00; }
+  .flex-wrapper {
+    flex-direction: column; }
+  .flex-wrapper a:hover {
+    flex: 1; }
+  .flex-wrapper a:hover .overlay {
+    background-color: transparent; }
+  .flex-wrapper .overlay h2,
+  .flex-wrapper .overlay p {
+    opacity: 1;
+    visibility: visible;
+    transform: none; } }
+
+.showcase-image {
+  margin-left: 125px; }
+
+/* restaurant*/
+h5 {
+  color: #cc4b37; }
+
+p {
+  color: #ECEBB8; }
+
+.card {
+  background-color: #F8F7F2;
+  margin-top: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
+
+.card-title {
+  color: #1779ba;
+  text-align: center; }
+
+.card-section {
+  color: #767676; }
+
+.card-divider {
+  color: #ECEBB8;
+  margin-bottom: 5px; }
+
+/* TAPAS*/
+.open {
+  font-weight: 900; }
+
+.blurb {
+  color: steelblue; }
+
+/* ABOUT US--*/
+.thumbnail {
+  margin: 125px; }
+
+/* FOOTER --*/
+.footer-text {
+  color: #767676;
+  text-align: center; }
+
+.copy {
+  text-align: center;
+  color: #767676; }
+
+.lead h4 {
+  color: #cc4b37; }
+
+.lead p {
+  color: #767676; }
+
+.callout-primary {
+  margin-left: 50px; }
+
+.content {
+  max-width: 500px;
+  margin: auto; }

@@ -1,0 +1,117 @@
+.border-width {
+  color: orangered; }
+
+.dropbtn {
+  background-color: #585C62;
+  color: #9B9BA1;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer; }
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #585C62; }
+
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+.dropdown a:hover {
+  background-color: #585C62; }
+
+.show {
+  display: block; }
+
+.content {
+  max-width: 750px;
+  margin: auto;
+  background: #E6E4EA;
+  padding: 5px; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: darkgray; }
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white; }
+
+.containerTab {
+  padding: 20px;
+  color: white; }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer; }
+
+.pagination {
+  display: inline-block;
+  align-content: center; }
+
+.pagination a {
+  margin-left: 500px;
+  color: #404040;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd; }
+
+.center {
+  text-align: center; }
+
+.pagination a:hover:not(.active) {
+  background-color: #585C62; }
+
+/* FOOTER --*/
+.content {
+  max-width: 600px;
+  margin: auto; }
+
+/* FOOTER --*/
+.fa {
+  color: orangered;
+  padding: 4px;
+  border-radius: 5px; }
+
+.footer-text {
+  color: #767676;
+  text-align: center; }
+
+.copy {
+  text-align: center;
+  color: #767676; }

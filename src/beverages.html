@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Suttons Beach Pavilion</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/beverages.css">
+</head>
+
+<body>
+    <hr style="border-width:3px;">
+<!--BEVERAGE MENUS SECTION-->
+<div class="content">
+<div style="text-align:center">
+  <h2 style="color:#404040">Beverages List</h2>
+  <p style="color:#404040">Click on the boxes below:</p>
+</div>
+
+<!-- Three columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:#585C62;">
+    Beers
+  </div>
+  <div class="column" onclick="openTab('b2');" style="background:#585C62;">
+    Wines
+  </div>
+  <div class="column" onclick="openTab('b3');" style="background:#585C62;">
+    Times
+  </div>
+</div>
+
+<!-- Full-width columns: (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:#404040">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Beer & Ciders</h2>
+  <p><h5>IMPORTED BOTTLED</h5>
+   <strong>Corona</strong><br>
+   A pale refreshing lager produced by Cervecería Modelo in Mexico - best served with fresh lime<br>
+   <strong>Coors Crisp Lager - USA</strong><br>
+   An old-school American beer, bright and refreshing, this beer is light in colour with a smoother body, with plenty of bubbles for a quality kick. There's bags of fruity flavour on offer with this one.<br>
+   <strong>Blue Moon - Belgian Wheat Ale</strong><br>
+   A Delicious handcrafted Belgian style beer, brewed with oats for creaminess and spiced with orange peel and coriander<br>
+   <strong>Pure Blonde - Australia</strong><br>
+   Brewed with no preservatives to deliver an easy-drinking, ultra low carb beer. ... Pure Blonde is brewed longer to break down more natural sugars than usual, delivering a brew with 80% less carbohydrates than regular beer<br>
+   <strong>Coopers Pale Ale - Australia</strong><br>
+   Fruity and floral characters, balanced with a crisp bitterness, Coopers Pale Ale has a compelling flavour which is perfect for every occasion.<br>
+   <strong>Fiji Bitter</strong><br>
+   Fiji’s most popular beer. Full strength, mild bitterness, light bodied and a sweet maltiness.<br>
+   <strong>Vailima - Samoa</strong>
+   Produced as a European style lager using noble hops, the result is an easy drinking and sessionable lager with mild bitterness.<br>
+   <strong>XXXX Gold - QLD</strong><br>
+   An Aussie classic. Gold is a refreshing mid-strength beer that continues the great tradition of XXXX brewing heritage, by being brewed with the finest Australian malt, barley and unique golden cluster hops. Gold has a balanced, smooth flavour and body.
+   <h5>AUSTRALIAN CRAFT</h5>
+   <strong>Yenda Pale Ale</strong><br>
+   Yenda Pale Ale is an Australian-style pale ale with pronounced floral and tropical fruit hop aromas and subtle malt character. The bitterness from the New World hops balances the full-bodied malt flavour, delivering a refreshing, clean finish.<br>
+   <strong>Yenda Golden Ale</strong><br>
+   Australian Beer Company Yenda Golden Ale is light amber in appearance with malty flavours and is balanced with a clean hoppiness. The aroma is strong on passion and citrus with a zesty crisp finish. Goes well with salty snacks, white meats and fish.<br>
+   <strong>Yenda Crisp</strong><br>
+   Yenda is all about keeping it local. The barley used in the Yenda range of beers is sourced from within 40kms of the brewery, supporting the local farmers of the Riverina. Crisp Lager has a light smooth body while retaining an intense but refined hop aroma with a crisp finish as the name suggests.</p>
+   <h6>DRAUGHT BEER</h6>
+   We have a range of premium beers on tap, please ask our friendly staff for today's selection.</p>
+   <p><h6>CIDER</h6>
+     <strong>Pressmans</strong>
+   Apple Cider<br>
+   Rekorderlig<br>
+   Various Fruit Flavours</p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:#6D6E70">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Our Wines</h2>
+  <table id="wine-list">
+     
+          <tr>
+            <th class="left">SPARKLING WINE</th>
+            <th>LOCATION</th>
+            <th class="right">PRICE</th>
+          </tr>
+         
+          <tr>
+            <td>Mortar & Pestle Brut NV</td>
+            <td>Multi Regional</td>
+            <td>Glass $7 / Bottle $29</td>
+          </tr>
+          <tr>
+          <tr>
+            <td>Emily Pinot Noir Chardonnay Brut Cuvee</td>
+            <td>King Valley, Vic</td>
+            <td>Bottle $29</td>
+          </tr>
+          <tr>
+            <td>Redbank Prosecco</td>
+            <td>King Valley, VIC</td>
+            <td>Bottle $30</td>
+          </tr>
+          <tr>
+            <td>Jansz Premium Cuvee NV</td>
+            <td>Tasmania</td>
+            <td>Glass $12 / Bottle 50</td>
+        </tr>
+         <tr>
+            <th>CHAMPAGNE</th>
+            <th>LOCATION</th>
+            <th>PRICE</th>
+          </tr>
+          <tr>
+            <td>Pol Roger Brut Reserve NV</td>
+            <td>Epernay, France</td>
+            <td>Bottle $140</td>
+          </tr>
+          <tr>
+            <td>Pierre Gimonnet & Fils Blanc de Blanc 375ml</td>
+            <td>Cote de Blancs, France</td>
+            <td>Bottle $60</td>
+          </tr>
+          <tr>
+            <th>WHITE WINE</th>
+            <th>LOCATION</th>
+            <th>PRICE</th>
+          </tr>
+          <tr>
+            <td>West Cape Howe Riesling</td>
+            <td>Mount Barker, WA</td>
+            <td>Bottle $38</td>
+          </tr>
+          <tr>
+            <td>Yalumba Organic Pinot Grigio</td>
+            <td>South Australia</td>
+            <td>Glass $8 / Bottle $35</td>
+          </tr>
+          <tr>
+            <td>Haha Pinot Gris</td>
+            <td>Hawkes Bay, NZ</td>
+            <td>Bottle $38</td>
+          </tr>
+          <tr>
+            <td>The Long Paddock Sauvignon Blanc</td>
+            <td>King Valley, Vic</td>
+            <td>Glass $7 / Bottle $29</td>
+          </tr>
+          <tr>
+            <td>Twin Islands Sauvignon Blanc</td>
+            <td>Marlborough, NZ</td>
+            <td>Bottle $38</td>
+          </tr>
+          <tr>
+            <td>Bleasdale Langhorne Crossing Dry White</td>
+            <td>Langhorne Creek, SA</td>
+            <td>Glass $6 / Bottle $26</td>
+          </tr>
+          <tr>
+            <td>Brokenwood Cricket Pitch Sauv Blanc/Semillon</td>
+            <td>Multi Regional</td>
+            <td>Bottle $38</td>
+          </tr>
+          <tr>
+            <td>The Long Paddock Chardonnay</td>
+            <td>King Valley, Vic</td>
+            <td>Glass $7 / Bottle $29</td>
+          </tr>
+          <tr>
+            <td>Vasse Felix Filius Chardonnay</td>
+            <td>Margaret River, WA</td>
+            <td>Bottle $45</td>
+          </tr>
+          <tr>
+            <td>The Winery of Good Hope Chenin Blanc</td>
+            <td>Stellenbosch, South Africa</td>
+            <td>Bottle $30</td>
+          </tr>
+          <td>Christobel's Moscato</td>
+            <td>Barossa, SA</td>
+            <td>Glass $8 / Bottle $35</td>
+          </tr>
+          <tr>
+             <th>ROSE WINE</th>
+             <th>LOCATION</th>
+            <th>PRICE</th>
+          </tr>
+          <tr>
+            <td>Chaffey Brothers Not Your Grandma's Rose</td>
+            <td>Barossa Valley, SA</td>
+            <td>Glass $9/ Bottle $38</td>
+          </tr>
+          <tr>
+             <th>RED WINE</th>
+             <th>LOCATION</th>
+            <th>PRICE</th>
+          </tr>
+           <tr>
+            <td>Saint Clair Premium Pinot Noir</td>
+            <td>Marlborough, NZ</td>
+            <td>Bottle $45</td>
+          </tr>
+           <tr>
+            <td>Long Paddock Merlot</td>
+            <td>King Valley, Vic</td>
+            <td>Glass $7/ Bottle $29</td>
+          </tr>
+           <tr>
+            <td>Forest Hill Highbury Fields Cabernet Merlot</td>
+            <td>Great Southern, WA</td>
+            <td>Glass $9/ Bottle $38</td>
+          </tr>
+           <tr>
+            <td>Bleasdale Langhorne Crossings Dry Red</td>
+            <td>McLaren Vale, SA</td>
+            <td>Bottle $45</td>
+          </tr>
+           <tr>
+            <td>Wirra Wirra Church Block Cab Shiraz Merlot</td>
+            <td>Barossa Valley, SA</td>
+            <td>Glass $9/ Bottle $38</td>
+          </tr>
+           <tr>
+            <td>Bleasdale Mulberry Tree Cabernet Sauvignon</td>
+            <td>Langhorne Creek, SA</td>
+            <td>Bottle $38</td>
+          </tr>
+           <tr>
+            <td>The Long Paddock Shiraz</td>
+            <td>King Valley, Vic</td>
+            <td>Glass $7/ Bottle $29</td>
+          </tr>
+           <tr>
+            <td>Langmeil The Long Mile Shiraz</td>
+            <td>Barossa Valley, SA</td>
+            <td>Bottle $40</td>
+          </tr>
+           <tr>
+            <td>Yalumba Galway Vintage Malbec</td>
+            <td>Barossa Valley, SA</td>
+            <td>Bottle $36</td>
+          </tr>
+          <tr>
+            <td>Running With Bulls Tempranillo</td>
+            <td>Barossa Valley, SA</td>
+            <td>Bottle $40</td>
+          </tr>
+          <tr>
+             <th>DESSERT/FORTIFIED WINE (60ML GLASS)</th>
+             <th>LOCATION</th>
+            <th>PRICE</th>
+          </tr>
+          <tr>
+           <td>Vasse Felix Cane Cut Semillon</td>
+            <td>Margaret River, WA</td>
+            <td>Glass $5</td>
+          </tr>
+          <tr>
+           <td>The Wise One Tawny</td>
+            <td>Langhorne Creek, SA</td>
+            <td>Glass $7</td>
+          </tr>
+          <tr>
+           <td>Seppeltsfield Para Grand Tawny</td>
+            <td>Barossa Valley, SA</td>
+            <td>Glass $9</td>
+          </tr>
+    </table>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:#A9AAAC">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Opening Times</h2>
+   <p><strong>Opening Hours:- All hours are subject to change and often dictated by the weather.</strong><br>
+    <strong> Please note online bookings can only be made in the Restaurant or Tapas Bar</strong></p>
+    <div class="container">    
+    <div class="row">
+      <div class="mx-auto col-sm-6  sm-light">
+          <div class="container-menu text-center">
+          <span style="color:#404040">
+          <h4>Restaurant Hours:</h4>
+          Mon to Fri Lunch: 1130am-3pm<br>
+          Sat Lunch: 1130am-3-30pm<br>
+          Sun Lunch: 1130am-4pm<br>
+          Tues to Thurs<br>
+          Dinner: 5pm–8pm<br>
+          Fri & Sat<br>
+          Dinner: 5pm-830pm<br>
+          Sat & Sun<br>
+          Breakfast: 8am-1030am<br>
+    
+     
+      <h4>Fish & Chippery Hours:</h4>
+          Mon: 11am-3pm<br>
+          Tues-Thurs:<br> 11am-530pm<br>
+          Fri  & Sat:<br> 11am-7pm<br>
+          Sun:  <br>11am-6pm<br> 
+
+      <h4>Cafe Hours:</h4>
+            Mon - Fri:<br> 7am-3pm<br>
+            Sat & Sun:<br> 7am-6pm<br>
+    
+          <h4>Tapas Bar Hours:</h4>
+          Mon to Thu: Closed<br>
+          Fri: 3pm-Late<br>
+          Sat: 12pm-Late<br>
+          Sun: 12pm-7pm<br></span> 
+          </div>
+        </div>
+      </div>  
+    </div>      
+  </div>
+</div>
+<hr style="border-width:3px;">
+<div class="center">
+<p>Next/Previous buttons:</p></div>
+<div class="pagination">
+  <a href="index.html">❮</a>
+  <a href="restaurant.html">❯</a>
+ </div>
+
+ <hr style="border-width:3px">
+ <footer class="row ">
+ <div class="large-12 columns mx-auto">
+  <p class="footer-text">Suttons Beach Pavilion<i class="fa fa-marker"></i> 50 Marine Parade, Redcliffe, Qld, 4020, Australia <br><i class="fa fa-phone"></i> 07 32843320 <i class="fa fa-envelope"></i>info@suttonsbeachpavilion.com.au        </p>
+  <p class="copy">&copy;&nbsp;Clear Vision Hospitality 2017</p>
+ </div>
+ </footer>
+ 
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+ </body>
+ </html>
+ <script>          
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+
+</body>
+</html> 

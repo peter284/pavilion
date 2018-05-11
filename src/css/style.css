@@ -1,0 +1,358 @@
+body {
+  background: #E6E4EA;
+  color: #fff; }
+
+.logo {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px; }
+
+.navbar {
+  border-bottom: #F84822 3px solid;
+  opacity: 0.8;
+  margin-bottom: 10px; }
+
+.active {
+  color: #F84822; }
+
+.dropbtn {
+  background-color: #585C62;
+  color: #9B9BA1;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer; }
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #585C62; }
+
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+.dropdown a:hover {
+  background-color: #585C62; }
+
+.show {
+  display: block; }
+
+#restaurant-section {
+  background: url("../img/sails-restaurant-1_lrg.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  font-family: sans-serif; }
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px; }
+
+.restaurant-inner {
+  padding-top: 150px; }
+
+.card {
+  background-color: #F84822; }
+
+.card-form {
+  opacity: 0.8; }
+
+.fa {
+  color: #F84822;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+#info-head-section, #share-section {
+  color: #F84822; }
+  #info-head-section .fa, #share-section .fa {
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+
+#menu-section .fa {
+  color: #F84822;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+.open-hours {
+  margin-top: 75px;
+  color: #44749d; }
+
+.card-body {
+  border: #F84822;
+  border-width: 1px; }
+  .card-body i {
+    color: #333;
+    font-size: 30px; }
+
+.container-menu {
+  color: #585c62; }
+
+.container-fluid {
+  color: #585c62; }
+
+.menu-Start {
+  margin-left: 20px; }
+
+#tapas-section {
+  background: url("../img/viewBar153.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  font-family: sans-serif; }
+
+.darkTapas-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px; }
+
+.tapas-inner {
+  padding-top: 150px;
+  text-align: center; }
+
+.badge {
+  color: #F84822; }
+
+.display-4 {
+  text-align: center; }
+
+.modal-title {
+  color: #585c62; }
+
+.modal-body {
+  color: #585c62; }
+
+#cafe-section {
+  background: url("../img/cafe.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  font-family: sans-serif; }
+
+.darkCafe-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px; }
+
+.cafe-inner {
+  padding-top: 150px; }
+
+.fa {
+  font-size: 30px;
+  color: #F84822; }
+
+.breakfast {
+  color: #fff; }
+
+.rads img {
+  border-radius: 5px; }
+
+/*CHIPPERY SECTION ---*/
+#chippery-section {
+  background: url("../img/T_A+Fish+and+chips.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  font-family: sans-serif; }
+
+.darkChippery-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px; }
+
+.chippery-inner {
+  padding-top: 150px; }
+
+/*FUNCTION SECTION ---*/
+#function-section {
+  background: url("../img/weddings_pic.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  font-family: sans-serif; }
+
+.darkfunction-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px; }
+
+.function-inner {
+  padding-top: 150px; }
+
+/*--ABOUT US SECTION ---*/
+#about-section {
+  background: url("../img/chefs.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  font-family: sans-serif; }
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px; }
+
+.about-inner {
+  padding-top: 150px; }
+
+/*restaurantMenu-----*/
+/* four image containers use 25% for four, and 50% for two, etc */
+* {
+  box-sizing: border-box; }
+
+.column {
+  width: 20%;
+  padding: 0px; }
+
+/* Clearfix clear floats */
+.row::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%; } }
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 1rem;
+    line-height: 1.25; } }
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: .6rem;
+    line-height: 1.00; } }
+
+/* The Modal background */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 80%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+
+/*CAFE -MODAL---*/
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+  color: #585c62;
+  text-align: center; }
+
+.modal-text {
+  text-align: justify !important;
+  margin-left: auto; }
+
+/* The Close Button */
+.close {
+  color: #F84822;
+  float: center;
+  font-size: 18px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #44749d;
+  text-decoration: none;
+  cursor: pointer; }
+
+#myBtn {
+  background-color: #F84822;
+  color: #fff;
+  text-align: center;
+  width: 120px;
+  margin-left: 150px; }
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px; }
+
+.container-margin {
+  margin-top: 20px;
+  background-color: #E6E4EA; }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.responsive {
+  width: 100%;
+  height: auto; }
+
+/* FOOTER --*/
+.content {
+  max-width: 600px;
+  margin: auto; }
+
+/* FOOTER --*/
+.footer-text {
+  color: #767676;
+  text-align: center; }
+
+.copy {
+  text-align: center;
+  color: #767676; }
