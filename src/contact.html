@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Suttons Beach Pavilion</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .dropbtn {
+      background-color: #585C62;
+      color: #9B9BA1;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropbtn:hover,
+    .dropbtn:focus {
+      background-color: #585C62
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown a:hover {
+      background-color: #585C62
+    }
+
+    .show {
+      display: block;
+    }
+  </style>
+</head>
+
+<body id restaurant-section>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="index.html" class="navbar-brand">
+        <img src="img/logo.jpg" class="logo p-2" alt="logo" width="60" height="60">
+        <strong>Suttons Beach Pavilion</strong>
+        <i class="fa fa-marker "></i> Marine Parade Redcliffe Qld 4020</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="restaurant.html" class="nav-link">Restaurant</a>
+          </li>
+          <li class="nav-item">
+            <a href="tapas.html" class="nav-link">Tapas Bar</a>
+          </li>
+          <li class="nav-item">
+            <a href="cafe.html" class="nav-link">Cafe</a>
+          </li>
+          <li class="nav-item">
+            <a href="chippery.html" class="nav-link">Chippery</a>
+          </li>
+          <li class="nav-item">
+            <a href="function.html" class="nav-link">Function</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="active">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="events.html" class="nav-link">Coming Events</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Menus</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="openTimes.html">Opening Times</a>
+              <a class="dropdown-item" href="menusRestaurant.html">Restaurant Menus</a>
+              <a class="dropdown-item" href="tapasMenu.html">Tapas Menu</a>
+              <a class="dropdown-item" href="cafeMenu.html">Cafe Menu</a>
+              <a class="dropdown-item" href="beverages.html">Beverages</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div>
+    <div class="row">
+      <div class="col-sm 12">
+        <div class="container" m-5></div>
+      </div>
+    </div>
+  </div>
+  <hr style="border-width: 3px ">
+  <footer class="row ">
+    <div class="large-12 columns mx-auto">
+
+      <div class="row">
+        <div class="large-12 columns">
+          <p class="footer-text">Suttons Beach Pavilion
+            <i class="fa fa-marker"></i> 50 Marine Parade, Redcliffe, Qld, 4020, Australia
+            <br>
+            <i class="fa fa-phone"></i> 07 32843320
+            <i class="fa fa-envelope"></i>info@suttonsbeachpavilion.com.au </p>
+          <p class="copy">&copy;&nbsp;Clear Vision Hospitality 2017</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
