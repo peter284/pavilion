@@ -274,7 +274,47 @@ text-align: center;
   .about-inner{
     padding-top:150px;
   }
+/* EVENTS SECTION ---*/
+#events-section{
+  background:url('../img/bouquet.jpeg') no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  min-height:700px;
+  font-family: sans-serif;   
+}
+  .dark-overlay{
+    background-color:$dark-overlay;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-height:700px;
+  }
 
+  .events-inner{
+    padding-top:150px;
+  }
+/* CONTACT US SECTION ---*/
+
+#contact-section{
+  background:url('../img/team.jpg') no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  min-height:700px;
+  font-family: sans-serif;   
+}
+  .dark-overlay{
+    background-color:$dark-overlay;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-height:700px;
+  }
+
+  .contact-inner{
+    padding-top:150px;
+  }
 /*restaurantMenu-----*/
 /* four image containers use 25% for four, and 50% for two, etc */
 * {

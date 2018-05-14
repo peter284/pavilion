@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,91 +10,115 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body id restaurant-section>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="index.html" class="navbar-brand">
+        <img src="img/logo.jpg" class="logo p-2" alt="logo" width="60" height="60">
+        <strong>Suttons Beach Pavilion</strong>
+        <i class="fa fa-marker "></i> Marine Parade Redcliffe Qld 4020</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="restaurant.html" class="nav-link">Restaurant</a>
+          </li>
+          <li class="nav-item">
+            <a href="tapas.html" class="nav-link">Tapas Bar</a>
+          </li>
+          <li class="nav-item">
+            <a href="cafe.html" class="nav-link">Cafe</a>
+          </li>
+          <li class="nav-item">
+            <a href="chippery.html" class="nav-link">Chippery</a>
+          </li>
+          <li class="nav-item">
+            <a href="function.html" class="nav-link">Function</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="active">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="events.html" class="nav-link">Coming Events</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Menus</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="openTimes.html">Opening Times</a>
+              <a class="dropdown-item" href="restaurantMenus.html">Restaurant Menus</a>
+              <a class="dropdown-item" href="tapasMenu.html">Tapas Menu</a>
+              <a class="dropdown-item" href="cafeMenu.html">Cafe Menu</a>
+              <a class="dropdown-item" href="beverages.html">Beverages</a>
+              <a class="dropdown-item" href="events.html">Specails-Coming Events</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <hr style="border-width:3px">
+  <header id="about-section">
+    <div class="dark-overlay">
+      <div class="about-inner">
         <div class="container">
-         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-         <a href="index.html" class="navbar-brand"><img src="img/logo.jpg" class="logo p-2" alt="logo" width="60" height="60"><strong>Suttons Beach Pavilion</strong><i class="fa fa-marker "></i> Marine Parade Redcliffe Qld 4020</a>
-         <div class="collapse navbar-collapse" id="navbarCollapse">
-           <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a href="index.html" class="nav-link">Home</a>
-                </li>
-             <li class="nav-item">
-                <a  href="restaurant.html" class="nav-link">Restaurant</a>
-              </li>
-              <li class="nav-item">
-                  <a href="tapas.html" class="nav-link">Tapas Bar</a>
-                </li>
-                <li class="nav-item">
-                    <a href="cafe.html" class="nav-link">Cafe</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="chippery.html" class="nav-link">Chippery</a>
-                    </li>
-                    <li class="nav-item">
-                     <a href="function.html" class="nav-link">Function</a>
-                   </li>  
-                   <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact Us</a>
-                  </li> 
-                  <li class="nav-item">
-                      <a href="about.html" class="active">About Us</a>
-                    </li> 
-                  <li class="nav-item">
-                    <a href="events.html" class="nav-link">Coming Events</a>
-                  </li> 
-                    <!-- Dropdown -->
-                    <li class="nav-item dropdown" >
-                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menus</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                          <a class="dropdown-item" href="openTimes.html">Opening Times</a>
-                          <a class="dropdown-item" href= "restaurantMenus.html">Restaurant Menus</a>
-                          <a class="dropdown-item" href="tapasMenu.html">Tapas Menu</a>
-                          <a class="dropdown-item" href="cafeMenu.html">Cafe Menu</a>
-                          <a class="dropdown-item" href="beverages.html">Beverages</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                      </li>
-                    </ul>    
-                </div>  
-            </div>  
-            </nav>
-            <hr style="border-width:3px">
-            <header id="about-section">
-                <div class="dark-overlay">
-                  <div class="about-inner">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-lg-8 d-none d-lg-block">
-                          <h2>DEDICATED TO THEIR CRAFT</h2>
-                              <p>Our team of talented, hardworking chefs bring a wealth of experience and expertise to the the peninsular, with backgrounds working in many countries they ensure our regularly changing menus use the best of local, seasonal and sustainable ingredients to offer our customers unique tastes, textures and flavours.</p>
-                              
-                              <p>The kitchen brigade is lead by Head Chef Michael Harris, a two-hatted chef, Michael has been a prominent figure in the hospitality industry for over 20 years.  Born and raised in the village of Bampton, Oxfordshire in the UK.   Michael’s experience is heavily focused on gastronomy and fine dining, having started his apprenticeship at the flagship London hotel, the Dorchester.  He then went on to train with the famous Andoni Luis Aduriz of Mugaritz and Philippe Legendre of La Cinq, both two-Michelin starred chefs.
-                              
-                              Coming from an impressive background, having worked with Jamie Oliver and Heston Blumenthal in highly esteemed kitchens across Europe and Asia.  Michael arrived in Australia several years ago after a stint at Raffles Hotel Singapore and sometime in New Zealand and brings with him a wealth of knowledge, experience and passion to the Peninsular. </p>
-                              
-                              <p>Most recently, he has been head chef at Watt Restaurant in Brisbane’s trendy Powerhouse Precinct in New Farm.  But wanted to move to the stunning beachside location of the Pavilion and the opportunity to work for a small independent business, where he can take full ownership of the menu and the direction of the food.
-                              
-                              With everything, from in house smoked meats from the Pavilion’s giant smoker, local seafood, to breads being prepared from scratch, in-house.  Sourcing produce from local farmers and suppliers, will enable Michael to ensure everything that leaves his kitchen is of the highest standard.  Michael’s technical experience and flair for flavour is extensive.  By bringing these skills and knowledge to the Pavilion, he brings valuable insight to fine dining to create an affordable, simple, clean and fresh menu and make the fine dining experience more accessible on the Peninsula.</p>
-                              </div>
-                            </div> 
-                            </div>
-                          </div>                    
-       
-                          <hr style="border-width:3px">
-                          <footer class="row ">
-                          <div class="large-12 columns mx-auto">
-                           <p class="footer-text">Suttons Beach Pavilion<i class="fa fa-marker"></i> 50 Marine Parade, Redcliffe, Qld, 4020, Australia <br><i class="fa fa-phone"></i> 07 32843320 <i class="fa fa-envelope"></i>info@suttonsbeachpavilion.com.au        </p>
-                           <p class="copy">&copy;&nbsp;Clear Vision Hospitality 2017</p>
-                          </div>
-                          </footer>
-                    
-                    
-                      <script src="js/jquery.min.js"></script>
-                      <script src="js/popper.min.js"></script>
-                      <script src="js/bootstrap.min.js"></script>
-                    </body>
-                    </html>
+          <div class="row">
+            <div class="col-lg-8 d-none d-lg-block">
+              <div class="container">
+                <div class="alert alert-warning">
+                  <h2>DEDICATED TO THEIR CRAFT</h2>
+                  <p>Our team of talented, hardworking chefs bring a wealth of experience and expertise to the the peninsular,
+                    with backgrounds working in many countries they ensure our regularly changing menus use the best of local,
+                    seasonal and sustainable ingredients to offer our customers unique tastes, textures and flavours.
+                  </p>
+                  <div class="alert alert-success">
+                    <strong>The kitchen brigade</strong>
+                    <p>is lead by Head Chef Michael Harris, a two-hatted chef, Michael has been a prominent figure in the hospitality
+                      industry for over 20 years. Born and raised in the village of Bampton, Oxfordshire in the UK. Michael’s
+                      experience is heavily focused on gastronomy and fine dining, having started his apprenticeship at the
+                      flagship London hotel, the Dorchester. He then went on to train with the famous Andoni Luis Aduriz
+                      of Mugaritz and Philippe Legendre of La Cinq, both two-Michelin starred chefs. Coming from an impressive
+                      background, having worked with Jamie Oliver and Heston Blumenthal in highly esteemed kitchens across
+                      Europe and Asia. Michael arrived in Australia several years ago after a stint at Raffles Hotel Singapore
+                      and sometime in New Zealand and brings with him a wealth of knowledge, experience and passion to the
+                      Peninsular.
+                      <button type="button" onclick="alert('With everything, from in house smoked meats from the Pavilion’s giant smoker, local seafood, to breads being prepared from scratch, in-house.  Sourcing produce from local farmers and suppliers, will enable Michael to ensure everything that leaves his kitchen is of the highest standard.  Michael’s technical experience and flair for flavour is extensive.  By bringing these skills and knowledge to the Pavilion, he brings valuable insight to fine dining to create an affordable, simple, clean and fresh menu and make the fine dining experience more accessible on the Peninsula.')">Read More!</button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <hr style="border-width:3px">
+  <footer class="row ">
+    <div class="large-12 columns mx-auto">
+      <p class="footer-text">Suttons Beach Pavilion
+        <i class="fa fa-marker"></i> 50 Marine Parade, Redcliffe, Qld, 4020, Australia
+        <br>
+        <i class="fa fa-phone"></i> 07 32843320
+        <i class="fa fa-envelope"></i>info@suttonsbeachpavilion.com.au </p>
+      <p class="copy">&copy;&nbsp;Clear Vision Hospitality 2017</p>
+    </div>
+  </footer>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
